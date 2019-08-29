@@ -27,3 +27,4 @@ prefixo=input('Qual prefixo deseja adicionar?')# Recebendo o prefixo.
 for nome_arquivo in os.listdir():
     novo_nome = prefixo +'-'+ nome_arquivo
     os.rename(nome_arquivo,novo_nome)
+      # Eliezer
